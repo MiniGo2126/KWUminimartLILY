@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Harga Barang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .item {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .item h3 {
+            margin: 10px 0;
+        }
+        .item .price {
+            font-size: 18px;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Daftar Harga Barang</h1>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="qris.html">Qris</a>
+    <a href="kontakWA.html">Kontak</a>
+</nav>
+
+<div class="container">
+    <div class="item">
+        <img src="asset/gorengan3k.jpg" alt="Barang 1">
+        <h3>Barang 1</h3>
+        <p class="price">Rp 3.000</p>
+    </div>
+    <div class="item">
+        <img src="asset/gorengan4k.jpg" alt="Barang 2">
+        <h3>Barang 2</h3>
+        <p class="price">Rp 4.000</p>
+    </div>
+    <div class="item">
+        <img src="asset/nasimika.jpg" alt="Barang 3">
+        <h3>Barang 3</h3>
+        <p class="price">Rp 12.000</p>
+    </div>
+    <div class="item">
+        <img src="asset/ricebowl.jpg" alt="Barang 4">
+        <h3>Barang 4</h3>
+        <p class="price">Rp 12.000</p>
+    </div>
+</div>
+
+</body>
+</html>
